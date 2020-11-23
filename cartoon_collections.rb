@@ -17,7 +17,7 @@ def list_dwarves(array)
   array.each_with_index do |item, index|
     new_arr.push(index + 1 , item)
   end
-  new_arr
+  print new_arr
 end
 
 list_dwarves(["a", "b", "c"])
